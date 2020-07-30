@@ -1,0 +1,95 @@
+body {
+    background: #121212;
+}
+
+
+.container-header {
+    /* background: #2a2a2a; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.header {
+
+    width: 100%;
+    background: #2a2a2a;
+    padding: 10px;
+    font-family: monospace;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+
+.header .container-logo-menu .logo1 {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: #ccc;
+    color: #2a2a2a;
+    padding: 1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius:  3px;
+    
+}
+
+
+.header .container-logo-menu .logo1 span {
+    display: block;
+    font-size: 11px;
+}
+
+.header .container-logo-menu .logo1 span i{
+    display: block;
+    margin-top: 2px;
+}                 /* ----fin estilos logo--- */
+
+
+
+.header .container-logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .container-logo-menu a {
+    text-decoration: none;
+    color: #ccc;
+    margin-left: 10px;
+    transition: .2s ease all;
+}
+
+.header .container-logo-menu a:hover {
+    color: #fff;
+    border-bottom: 2px solid blue;
+    padding-bottom: 22px;
+}      /*  fin estilos menu opciones */
+
+/* estilos menu usuario */
+
+ .header .user {
+    padding: 10px;
+}
+
+.header .user a {
+    color: #ccc;
+    margin-right: 10px;
+    transition: .2s ease all;
+}
+
+.header .user a:hover {
+    color: #fff;
+}
+
+.header .user .consigue {
+    background: #007dfc;
+}
+
