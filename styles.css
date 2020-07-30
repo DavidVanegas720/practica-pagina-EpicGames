@@ -15,7 +15,6 @@ body {
 
 
 .header {
-
     width: 100%;
     background: #2a2a2a;
     padding: 10px;
@@ -25,6 +24,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
+    position: fixed;
     
 }
 
@@ -92,4 +92,48 @@ body {
 .header .user .consigue {
     background: #007dfc;
 }
+
+/* aqui incian los estilos para el contenido principal. */
+
+.main-container {
+    width: 90%;
+    max-width: 1000px;
+    height: 100vh;
+    background: #fff;
+    margin: auto;
+    font-family: monospace;
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-container .descubrir {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-top: 64px;
+    background: #121212;
+    align-items: center;
+}
+
+.main-container .descubrir a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.main-container .descubrir .bar-search input{
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    background: #2a2a2a;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
 
